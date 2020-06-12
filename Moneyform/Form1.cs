@@ -34,7 +34,7 @@ namespace Moneyform
             boxNum = boxNum / 100;
             HundredthTextbox.Text = "" + boxNum;
 
-            change = prevChange % 50;
+            change = prevChange % 50; 
             boxNum = prevChange - change;
             prevChange = prevChange - boxNum;
             boxNum = boxNum / 50;
